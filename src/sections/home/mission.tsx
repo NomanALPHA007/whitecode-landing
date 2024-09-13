@@ -16,7 +16,7 @@ const Mission = () => {
             Our Mission
           </span>
           <br />
-          <span className="font-montserrat text-2xl lg:text-4xl xl:text-5xl max-md:font-[600] max-md:tracking-wide max-md:leading-relaxed">
+          <span className="font-montserrat text-base lg:text-base xl:text-base max-md:font-[600] max-md:tracking-wide max-md:leading-relaxed ">
             At Project WhiteCode, we aim to deliver innovative, customtailored
             software solutions that drive efficiency and excellence
           </span>
