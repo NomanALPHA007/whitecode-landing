@@ -1,17 +1,41 @@
-import React from "react";
+"use client";
+import { motion } from "framer-motion";
+import { ValueCard } from "@/components";
+import { values } from "@/data";
 
 const Values = () => {
   return (
-    <div className="w-full px-4 py-16 sm:px-8 md:px-16 lg:px-24 bg-white flex flex-col justify-center items-center">
-      {/* Heading Section */}
-      <div className="text-center mb-12">
-        <h1 className="text-black text-[48px] sm:text-[60px] lg:text-[86.33px] font-bold font-['Jura']">
-          Exception is the Standard
-        </h1>
-        <p className="text-black text-[24px] sm:text-[30px] lg:text-[37.71px] font-normal font-['Inter']">
-          Why choose Us
-        </p>
-      </div>
+    <div className="px-2 md:px-6 lg:px-12 py-16 md:py-32 w-full flex flex-col items-center justify-center gap-20">
+      <motion.div
+        initial={{ opacity: 0, x: 20 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6 }}
+        className="font-jura text-4xl tracking-wide font-[500]"
+      >
+        Exception is the Standard
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, x: 20 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6 }}
+        className="font-Montserrat text-2xl tracking-wide font-[500]"
+      >
+        Why choose Us
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, x: -20 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6 }}
+        className="w-[100%] md:w-[70vw] flex justify-center items-center gap-5 lg:gap-10 flex-wrap"
+      >
+        {values.map((service, index) => (
+          <ValueCard
+            key={index}
+            title={service.title}
+            description={service.description}
+          />
+        ))}
+      </motion.div>
     </div>
   );
 };
