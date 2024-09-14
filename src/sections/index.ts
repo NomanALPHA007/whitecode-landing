@@ -3,6 +3,7 @@ import Footer from "./footer/footer";
 
 // Shared Section
 import Chat from "./shared/chat";
+import Map from "./shared/map";
 
 // Home Sections
 import Hero from "./home/hero";
@@ -26,6 +27,7 @@ import AllServices from "./services/all-services";
 import AboutHero from "./about/about-hero";
 import AboutMission from "./about/about-mission";
 import Story from "./about/story";
+import AboutValues from "./about/about-values";
 
 // News Sections
 import NewsHero from "./news/news-hero";
@@ -40,6 +42,7 @@ export {
   Header,
   Footer,
   Chat,
+  Map,
   Hero,
   Mission,
   Project,
@@ -55,6 +58,7 @@ export {
   AboutHero,
   AboutMission,
   Story,
+  AboutValues,
   NewsHero,
   AllNews,
   ContactChat,

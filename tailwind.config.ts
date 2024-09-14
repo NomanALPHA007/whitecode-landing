@@ -33,6 +33,9 @@ const config: Config = {
         primary: "#3F9EB7",
         accent: "#ECEEFF",
       },
+      backgroundImage: {
+        'blue-gradient': 'radial-gradient(146.52% 386.94% at 23.92% 71.99%, #92B1DC 52.5%, #8F76ED 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49))',
+      },
       boxShadow: {
         "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
       },

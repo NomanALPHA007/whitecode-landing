@@ -15,7 +15,7 @@ const AllNews = () => {
 	};
 
 	const initialNews = allNews.slice(0, VIEW_COUNT);
-  const additionalNews = allNews.slice(VIEW_COUNT);
+	const additionalNews = allNews.slice(VIEW_COUNT);
 
 	return (
 		<div className="w-full px-2 md:px-12 lg:px-48 padding-y lg:py-36 flex flex-col items-center justify-center gap-20">
@@ -32,20 +32,24 @@ const AllNews = () => {
 			</motion.div>
 
 			<AnimatePresence>
-        {visibleNews > VIEW_COUNT && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.6 }}
-            className="w-[100%] md:w-[70vw] flex justify-center items-center gap-5 lg:gap-10 flex-wrap"
-          >
-            {additionalNews.map((news, index) => (
-              <ItemCard key={index + VIEW_COUNT} title={news.name} img={news.img} />
-            ))}
-          </motion.div>
-        )}
-      </AnimatePresence>
+				{visibleNews > VIEW_COUNT && (
+					<motion.div
+						initial={{ opacity: 0, height: 0 }}
+						animate={{ opacity: 1, height: "auto" }}
+						exit={{ opacity: 0, height: 0 }}
+						transition={{ duration: 0.6 }}
+						className="w-[100%] md:w-[70vw] flex justify-center items-center gap-5 lg:gap-10 flex-wrap"
+					>
+						{additionalNews.map((news, index) => (
+							<ItemCard
+								key={index + VIEW_COUNT}
+								title={news.name}
+								img={news.img}
+							/>
+						))}
+					</motion.div>
+				)}
+			</AnimatePresence>
 
 			<Button
 				variant="light"

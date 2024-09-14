@@ -1,16 +1,17 @@
-import { ImageCarousel } from '@/components'
-import { AllNews, Chat, NewsHero } from '@/sections'
-import React from 'react'
+import { ImageCarousel } from "@/components";
+import { carouselNews } from "@/data";
+import { AllNews, Chat, NewsHero } from "@/sections";
+import React from "react";
 
 const News = () => {
-  return (
-    <div>
-      <NewsHero />
-      {/* Carousel Here */}
-      <AllNews />
-      <Chat />
-    </div>
-  )
-}
+	return (
+		<div>
+			<NewsHero />
+			<ImageCarousel projects={carouselNews} />
+			<AllNews />
+			<Chat />
+		</div>
+	);
+};
 
-export default News
+export default News;

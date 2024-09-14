@@ -1,4 +1,4 @@
-import { AboutHero, AboutMission, Chat, Story } from '@/sections'
+import { AboutHero, AboutMission, AboutValues, Chat, Map, Story } from '@/sections'
 import React from 'react'
 
 const About = () => {
@@ -7,6 +7,8 @@ const About = () => {
       <AboutHero />
       <AboutMission />
       <Story />
+      <AboutValues />
+      <Map />
       <Chat />
     </main>
   )
