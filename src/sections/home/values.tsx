@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { ValueCard } from "@/components";
+import { HomeValuesCarosel, ValueCard } from "@/components";
 import { values } from "@/data";
 
 const Values = () => {
@@ -28,13 +28,7 @@ const Values = () => {
         transition={{ duration: 0.6 }}
         className="w-[100%] md:w-[70vw] flex justify-center items-center gap-5 lg:gap-10 flex-wrap"
       >
-        {values.map((service, index) => (
-          <ValueCard
-            key={index}
-            title={service.title}
-            description={service.description}
-          />
-        ))}
+        <HomeValuesCarosel></HomeValuesCarosel>
       </motion.div>
     </div>
   );

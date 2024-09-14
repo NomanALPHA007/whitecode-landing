@@ -37,7 +37,7 @@ const Hero = () => {
         className="w-[90%] xl:w-[70%] text-center flex justify-center items-center"
       >
         <motion.div
-          className="text-accent font-jura font-[600] text-3xl md:text-8xl lg:text-8xl tracking-widest"
+          className="text-accent font-jura font-[600] text-4xl md:text-6xl lg:text-8xl tracking-widest"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.5 }}

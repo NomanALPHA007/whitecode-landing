@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-
 import { FaArrowRight } from "react-icons/fa";
 
 const Vision = () => {
@@ -25,13 +24,13 @@ const Vision = () => {
       </div>
       <div className="w-full md:w-1/2 relative">
         <motion.div
-          initial={{ opacity: 0, x: 10 }}
+          initial={{ opacity: 0, x: -10 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
           className="relative z-0"
         >
           <img
-            src="/mission.jpg"
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
             alt="Team collaborating on a project"
             className="w-full h-full object-cover relative z-0"
           />

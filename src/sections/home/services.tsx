@@ -12,19 +12,19 @@ const ServicesSection = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-16">
+    <div className=" mx-auto px-4 py-16">
       <div className="flex flex-col lg:flex-row items-center justify-between">
         <div className="lg:w-1/2 mb-10 lg:mb-0">
-          <h1 className="text-4xl lg:text-5xl font-bold text-blue-300 font-['Jura'] mb-6">
+          <h1 className="text-4xl lg:text-5xl font-bold text-blue-300 font-jura mb-6">
             What we do
           </h1>
-          <p className="text-gray-600 mb-8 font-['Montserrat']">
+          <p className="text-gray-600 mb-8 font-montserrat">
             At Project WhiteCode, we aim to deliver innovative, customized
             software solutions that drive efficiency and excellence. Our
             services span across various domains, ensuring we meet diverse
             technological needs.
           </p>
-          <button className="bg-blue-300 text-white font-['Montserrat'] py-3 px-6 rounded-lg hover:bg-blue-400 transition duration-300 flex items-center">
+          <button className="bg-blue-300 text-white font-montserrat py-3 px-6 rounded-lg hover:bg-blue-400 transition duration-300 flex items-center">
             More services
             <FaArrowRight className="ml-2" />
           </button>
