@@ -1,38 +1,39 @@
 "use client";
-import React from "react";
-import { Image } from "@nextui-org/react";
+
 import { motion } from "framer-motion";
-const Mission = () => {
+
+import { FaArrowRight } from "react-icons/fa";
+
+const Vision = () => {
   return (
-    <div className="w-full bg-white padding flex items-center justify-center">
-      <div className="relative w-[100%] md:flex items-center justify-between gap-4">
+    <div className="w-full flex flex-col md:flex-row bg-white">
+      <div className="w-full md:w-1/2 p-8 md:p-16 flex flex-col justify-center items-center text-center">
         <motion.div
           initial={{ opacity: 0, x: -10 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
-          className="w-[100%] md:w-[50%] lg:w-[45%] max-md:absolute max-md:z-10 max-md:px-10 max-md:py-20 max-sm:py-10"
         >
-          <span className="font-jura text-4xl md:text-5xl lg:text-6xl xl:text-[64px] font-[600] tracking-wide leading-snug">
+          <h1 className="font-jura text-4xl md:text-5xl lg:text-6xl xl:text-[64px] font-[600] tracking-wide leading-snug mb-8">
             Our Mission
-          </span>
-          <br />
-          <span className="font-montserrat text-base lg:text-base xl:text-base max-md:font-[600] max-md:tracking-wide max-md:leading-relaxed ">
-            At Project WhiteCode, we aim to deliver innovative, customtailored
-            software solutions that drive efficiency and excellence
-          </span>
+          </h1>
+          <p className="font-montserrat text-base lg:text-base xl:text-base max-md:font-[600] max-md:tracking-wide max-md:leading-relaxed mb-6">
+            We position ourselves to provide affordable IT solutions for all
+            sorts of business sizes, so you don't have to worry if you're an
+            SME. Our budget is tailored according to the size of your business.
+          </p>
         </motion.div>
+      </div>
+      <div className="w-full md:w-1/2 relative">
         <motion.div
           initial={{ opacity: 0, x: 10 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
-          className="w-[100%] md:w-[50%] lg:w-[45%] xl:w-[40%] z-0"
+          className="relative z-0"
         >
-          <Image
+          <img
             src="/mission.jpg"
-            alt="Hero Image"
-            loading="lazy"
-            removeWrapper
-            className="h-auto z-0"
+            alt="Team collaborating on a project"
+            className="w-full h-full object-cover relative z-0"
           />
         </motion.div>
       </div>
@@ -40,4 +41,4 @@ const Mission = () => {
   );
 };
 
-export default Mission;
+export default Vision;
