@@ -22,7 +22,7 @@ const Hero = () => {
 
   return (
     <div
-      className="w-full padding-md:px-44 flex flex-col justify-center items-center gap-8 h-[calc(100vh-100px)] bg-black"
+      className="w-full flex flex-col justify-center items-center gap-8 h-[calc(100vh-100px)] bg-black"
       style={{
         backgroundImage: `url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80")`,
         backgroundSize: "cover",
@@ -37,7 +37,8 @@ const Hero = () => {
         className="w-[90%] xl:w-[70%] text-center flex justify-center items-center"
       >
         <motion.div
-          className="text-accent font-jura font-[600] text-4xl md:text-6xl lg:text-8xl tracking-widest"
+          className="text-white font-jura font-extrabold tracking-widest"
+          style={{ fontSize: "clamp(2rem, 8vw, 6rem)" }} // Dynamic font size
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.5 }}

@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 
 const Solution = () => {
   return (
-    <div className="bg-gradient-to-b from-[#0c0c0c] to-white  h-[55vh] py-8 px-8 md:px-24 lg:px-28 xl:px-36 flex items-center justify-center mb-2">
+    <div className="bg-gradient-to-b from-black via-gray-400 to-white animate-gradient-slow h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[90vh] xl:h-[100vh] py-8 px-8 md:px-16 lg:px-24 xl:px-32 flex items-center justify-center mb-2">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         transition={{ duration: 0.6 }}
         whileInView={{ opacity: 1, y: 0 }}
         className="w-[90%] xl:w-[70%] text-center"
       >
-        <span className="text-accent-font font-jura font-[600] text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-widest">
+        <span className="text-white font-jura font-extrabold text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl tracking-widest">
           Affordable IT Solutions
         </span>
       </motion.div>

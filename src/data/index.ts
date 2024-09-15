@@ -241,42 +241,47 @@ export const countries: any = {
 export const cardData = [
   {
     id: 1,
-    title: "Beautiful Sunset",
-    description: "Experience the tranquility of a breathtaking sunset.",
+    title: "Project White Code",
+    description:
+      "Delivering excellence through innovation in AI and software development.",
     image:
-      "https://images.unsplash.com/photo-1594919302470-d531545b4c22?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    rating: 4.5,
+      "https://plus.unsplash.com/premium_photo-1720287601300-cf423c3d6760?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    rating: 5.0,
   },
   {
     id: 2,
-    title: "Mountain Adventure",
-    description: "Embark on an exciting journey through majestic mountains.",
+    title: "Cutting-edge AI Solutions",
+    description:
+      "We specialize in delivering custom-tailored AI projects leveraging the latest advancements.",
     image:
-      "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    rating: 4.8,
+      "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    rating: 4.9,
   },
   {
     id: 3,
-    title: "Tropical Paradise",
-    description: "Relax on pristine beaches in a tropical paradise.",
+    title: "Advanced Image Processing",
+    description:
+      "Our team excels in solving complex problems with cutting-edge image processing technologies.",
     image:
-      "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    rating: 4.7,
+      "https://plus.unsplash.com/premium_photo-1725907643696-b30e86f66b28?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    rating: 4.8,
   },
   {
     id: 4,
-    title: "Urban Exploration",
-    description: "Discover hidden gems in bustling city landscapes.",
+    title: "AI-driven Innovation",
+    description:
+      "We are dedicated to driving innovation and helping businesses thrive with AI-driven solutions.",
     image:
-      "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    rating: 4.3,
+      "https://images.unsplash.com/photo-1655393001768-d946c97d6fd1?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    rating: 4.7,
   },
   {
     id: 5,
-    title: "Serene Lake View",
-    description: "Find peace and tranquility by a serene mountain lake.",
+    title: "Custom Software Development",
+    description:
+      "We provide custom software solutions to address unique business needs across various industries.",
     image:
-      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    rating: 4.6,
+      "https://plus.unsplash.com/premium_photo-1720287601920-ee8c503af775?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    rating: 4.9,
   },
 ];

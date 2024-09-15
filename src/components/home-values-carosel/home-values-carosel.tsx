@@ -57,16 +57,16 @@ const HomeValuesCarousel: React.FC = () => {
               </div>
             </div>
             <div className="p-2">
-              <h2 className="text-sm md:text-base lg:text-lg font-semibold mb-1 text-white">
+              <h2 className="text-sm md:text-base lg:text-lg font-jura font-bold mb-1 text-black">
                 {card.title}
               </h2>
-              <p className="text-gray-100 text-xs md:text-sm lg:text-base mb-2">
+              <p className="text-black font-jura text-xs md:text-sm lg:text-base mb-2">
                 {card.description}
               </p>
               <div className="flex items-center justify-between">
                 <div className="flex items-center">
                   <FaStar className="text-yellow-400 mr-1" />
-                  <span className="font-bold text-white text-sm md:text-base">
+                  <span className="font-bold text-black font-jura text-sm md:text-base">
                     {card.rating.toFixed(1)}
                   </span>
                 </div>
