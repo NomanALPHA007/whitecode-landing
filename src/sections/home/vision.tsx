@@ -14,7 +14,7 @@ const Vision = () => {
           transition={{ duration: 0.6, delay: 0.6 }}
         >
           <h1 className="font-jura text-4xl md:text-5xl lg:text-6xl xl:text-[64px] font-[600] tracking-wide leading-snug mb-8">
-            Our Mission
+            Our Vision
           </h1>
           <p className="font-montserrat text-base lg:text-base xl:text-base max-md:font-[600] max-md:tracking-wide max-md:leading-relaxed mb-6">
             We position ourselves to provide affordable IT solutions for all
