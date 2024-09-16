@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const AboutHero = () => {
 	return (
-		<div className="w-full bg-black padding flex items-center justify-center">
+		<div className="w-full bg-custom padding flex items-center justify-center">
 			<div className="w-[100%] md:w-[80%] flex flex-col items-center justify-center gap-16">
 				<motion.div 
           initial={{opacity: 0, y: -10}}

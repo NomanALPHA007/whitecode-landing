@@ -22,14 +22,14 @@ const Story = () => {
 				className="mySwiper w-full h-full"
 			>
 				<SwiperSlide>
-					<div className="h-full bg-blue-gradient px-8 md:px-24 lg:px-36 xl:px-52 py-24 lg:py-60 text-white flex justify-end items-center">
+					<div className="h-full bg-custom px-8 md:px-24 lg:px-36 xl:px-52 py-24 lg:py-60 text-white flex justify-end items-center">
 						<div className="font-jura text-5xl md:text-6xl lg:text-8xl font-[600]">
 							Our Story
 						</div>
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div className="h-full bg-blue-gradient px-8 md:px-24 lg:px-36 xl:px-52 py-24 lg:py-60 text-white flex justify-start items-center">
+					<div className="h-full bg-custom px-8 md:px-24 lg:px-36 xl:px-52 py-24 lg:py-60 text-white flex justify-start items-center">
 						<div className="font-jura text-xl md:text-2xl lg:text-3xl w-[85%] lg:w-[60%]">
 							Despite being in the era of Industry 5.0, basic IT solutions
 							remain unaffordable, particularly for SMEs and startups. SMEs

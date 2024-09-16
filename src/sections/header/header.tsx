@@ -24,7 +24,7 @@ const Header = () => {
 			// shouldHideOnScroll
 			onMenuOpenChange={setIsMenuOpen}
 			maxWidth="full"
-			className="!bg-black px-8"
+			className="!bg-custom px-8"
       height="5rem"
       classNames={{
         item: [

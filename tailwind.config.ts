@@ -28,27 +28,30 @@ const config: Config = {
         palanquin: ["Palanquin", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
         jura: ["Jura", "sans-serif"],
+        monoton: ["Monoton", "sans-serif"]
       },
       colors: {
-        primary: "#3F9EB7",
-        accent: "#ECEEFF",
+        'primary': '#3F9EB7',
+        'accent': '#ECEEFF',
+        "light-mint-green": "#b2fab4",
+        "pastel-turquoise": "#a7ffeb",
+        "light-peach": "#ffccbc",
       },
       backgroundImage: {
-        default: "url(/bg-default.png)",
-        "blue-gradient":
-          "radial-gradient(146.52% 386.94% at 23.92% 71.99%, #92B1DC 52.5%, #8F76ED 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49))",
+        'default': 'url(/bg-default.png)',
+        'blue-gradient': 'radial-gradient(146.52% 386.94% at 23.92% 71.99%, #92B1DC 52.5%, #8F76ED 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49))',
       },
       boxShadow: {
         "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
       },
       keyframes: {
         scroll: {
-          "0%": { transform: "translateY(0)" },
-          "100%": { transform: "translateY(calc(-100% + 250px))" },
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(calc(-100% + 250px))' },
         },
       },
       animation: {
-        scroll: "scroll 15s linear forwards",
+        scroll: 'scroll 15s linear forwards',
       },
     },
   },

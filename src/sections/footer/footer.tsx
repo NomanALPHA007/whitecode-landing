@@ -6,7 +6,7 @@ import { Link } from "@nextui-org/react";
 
 const Footer = () => {
 	return (
-		<footer className="w-full bg-black text-primary padding md:px-36">
+		<footer className="w-full bg-custom text-primary padding md:px-36">
 			<div className="w-[100%] flex max-lg:flex-col gap-16 items-center justify-between mb-16 lg:mb-40">
 				<div className="flex flex-col items-center justify-between lg:items-start lg:justify-start gap-4 w-[80%] lg:w-80">
 					<div className="flex items-center justify-center">

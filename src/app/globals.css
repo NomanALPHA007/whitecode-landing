@@ -19,6 +19,12 @@
     max-width: 1440px;
     margin: 0 auto;
   }
+
+  .bg-custom {
+    background-image: url('/bg-default.png');
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 @layer utilities {

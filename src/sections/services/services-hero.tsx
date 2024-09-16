@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const ServicesHero = () => {
 	return (
-		<div className="bg-black h-[55vh] padding-y px-8 md:px-24 lg:px-28 xl:px-36 flex items-center justify-center mb-2">
+		<div className="bg-custom h-[55vh] padding-y px-8 md:px-24 lg:px-28 xl:px-36 flex items-center justify-center mb-2">
 			<motion.div
 				initial={{ opacity: 0, y: 20 }} 
 				whileInView={{ opacity: 1, y: 0 }} 
