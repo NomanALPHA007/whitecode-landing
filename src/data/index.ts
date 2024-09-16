@@ -74,8 +74,8 @@ export const footerSocials = [
 
 export const carouselProjects = [
 	{
-		name: "Project 1",
-		img: "project1.png",
+		name: "KONE SiteFlow",
+		img: "images/projects/siteflow-p-2000.png",
 	},
 	{
 		name: "AFUbot",
@@ -85,14 +85,14 @@ export const carouselProjects = [
 
 export const projects = [
 	{
-		name: "Project 1",
-		img: "project1.png",
-		link: "#",
+		name: "KONE SiteFlow",
+		img: "/images/projects/siteflow-p-2000.png",
+		link: "https://siteflow.kone.com/",
 	},
 	{
-		name: "Project 2",
-		img: "project2.png",
-		link: "#",
+		name: "The Guestbook",
+		img: "/images/projects/theguestbook-p-1080.png",
+		link: "https://theguestbook.com/",
 	},
 	{
 		name: "Project 1",
