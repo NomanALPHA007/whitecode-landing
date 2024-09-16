@@ -15,33 +15,33 @@ const MissionSection = () => {
   const categories = [
     {
       name: "Discover",
-      color: "bg-blue-300",
+      color: "bg-[#b2fab4]", // Light mint green
       skills: ["Research", "Analysis", "Planning"],
     },
     {
       name: "Develop",
-      color: "bg-blue-300",
+      color: "bg-[#a7ffeb] text-gray-800", // Pastel turquoise with dark text
       skills: ["Coding", "Testing", "Debugging"],
     },
     {
       name: "Deliver",
-      color: "bg-blue-300",
+      color: "bg-[#ffccbc] text-white", // Light peach with white text
       skills: ["Deployment", "Optimization", "Support"],
     },
   ];
 
   const steps = [
-    { name: "Research", icon: FaSearch },
-    { name: "Specification", icon: FaClipboardList },
-    { name: "Design", icon: FaPencilAlt },
-    { name: "Develop", icon: FaCode },
-    { name: "QA Testing", icon: FaBug },
-    { name: "Launch", icon: FaRocket },
-    { name: "Maintenance", icon: FaTools },
+    { name: "Research", icon: FaSearch, color: "bg-[#b2fab4]" }, // Light mint green
+    { name: "Specification", icon: FaClipboardList, color: "bg-[#b2fab4]" }, // Light mint green
+    { name: "Design", icon: FaPencilAlt, color: "bg-[#b2fab4]" }, // Light mint green
+    { name: "Develop", icon: FaCode, color: "bg-[#a7ffeb]" }, // Pastel turquoise
+    { name: "QA Testing", icon: FaBug, color: "bg-[#a7ffeb]" }, // Pastel turquoise
+    { name: "Launch", icon: FaRocket, color: "bg-[#ffccbc]" }, // Light peach
+    { name: "Maintenance", icon: FaTools, color: "bg-[#ffccbc]" }, // Light peach
   ];
 
   return (
-    <div className="mission-section container mx-auto px-4 py-16 overflow-hidden">
+    <div className="mission-section w-full min-h-screen mx-auto px-4 py-24 md:py-32 overflow-hidden flex flex-col justify-center">
       <motion.h2
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -52,14 +52,14 @@ const MissionSection = () => {
       </motion.h2>
 
       {/* Workflow Categories */}
-      <div className="mission-section__categories flex flex-row items-center justify-center space-x-4 mb-16">
+      <div className="mission-section__categories flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 mb-16">
         {categories.map((category, index) => (
           <motion.div
             key={index}
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className={`mission-section__category px-6 py-3 rounded-lg ${category.color} text-white shadow-md transition-all duration-300 hover:shadow-lg cursor-pointer group relative overflow-hidden`}
+            className={`mission-section__category px-6 py-3 rounded-lg ${category.color} shadow-md transition-all duration-300 hover:shadow-lg cursor-pointer group relative overflow-hidden`}
             whileHover={{ scale: 1.05 }}
           >
             <h3 className="text-lg md:text-xl font-montserrat text-center">
@@ -100,7 +100,7 @@ const MissionSection = () => {
               className="mission-section__step flex flex-col items-center w-1/2 sm:w-1/4 md:w-auto mb-8 md:mb-0"
             >
               <motion.div
-                className="mission-section__icon-wrapper bg-white rounded-full p-3 md:p-4 mb-3 shadow-md transition-all duration-300 hover:shadow-lg"
+                className={`mission-section__icon-wrapper ${step.color} rounded-full p-3 md:p-4 mb-3 shadow-md transition-all duration-300 hover:shadow-lg`}
                 whileHover={{ scale: 1.1 }}
               >
                 <step.icon className="mission-section__icon text-2xl md:text-3xl text-gray-800" />

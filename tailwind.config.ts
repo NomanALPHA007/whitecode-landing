@@ -33,6 +33,10 @@ const config: Config = {
       colors: {
         primary: "#3F9EB7",
         accent: "#ECEEFF",
+        // New colors
+        "light-mint-green": "#b2fab4", // Discover
+        "pastel-turquoise": "#a7ffeb", // Develop
+        "light-peach": "#ffccbc", // Deliver
       },
       backgroundImage: {
         "blue-gradient":

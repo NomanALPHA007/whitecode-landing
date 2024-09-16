@@ -21,7 +21,7 @@ const Values = () => {
         initial={{ opacity: 0, x: 20 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}
-        className="font-Montserrat text-xl md:text-2xl lg:text-3xl tracking-wide font-medium text-center"
+        className="text-blue-300 font-Montserrat text-xl md:text-2xl lg:text-3xl tracking-wide font-medium text-center"
       >
         Why Choose Us
       </motion.div>

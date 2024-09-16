@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -24,26 +25,28 @@ const ServiceSection = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row bg-white p-4 sm:p-8 justify-center items-center">
-      {/* Left Side - 30% */}
+    <div className="flex flex-col lg:flex-row  p-4 sm:p-8 justify-center items-center">
+      {/* Left Side */}
       <div className="lg:w-[40%] xl:w-[30%] lg:pr-8 mb-8 lg:mb-0 text-center lg:text-left">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-300 mb-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-jura font-bold text-blue-300 mb-4">
           What We Do
         </h2>
-        <p className="text-gray-700 mb-6 text-sm sm:text-base">
+        <p className="text-gray-700 font-montserrat mb-6 text-sm sm:text-base">
           We specialize in cutting-edge AI solutions, delivering custom-tailored
           projects that leverage the latest advancements in artificial
           intelligence and image processing technologies. Our team of experts is
           dedicated to solving complex problems and driving innovation across
           various industries.
         </p>
-        <button className="bg-blue-300 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-md hover:bg-blue-400 transition duration-300 flex items-center justify-center lg:justify-start">
-          More Services
-          <FaArrowRight className="ml-2" />
-        </button>
+        <div className="flex justify-center lg:justify-start">
+          <button className="bg-blue-300 text-white font-jura px-4 py-2 sm:px-6 sm:py-3 rounded-md hover:bg-blue-400 transition duration-300 flex items-center justify-center">
+            More Services
+            <FaArrowRight className="ml-2" />
+          </button>
+        </div>
       </div>
 
-      {/* Right Side - 70% */}
+      {/* Right Side */}
       <div className="lg:w-[40%] xl:w-[30%] flex justify-center">
         <ul className="space-y-4 w-full">
           {services.map((service, index) => (
