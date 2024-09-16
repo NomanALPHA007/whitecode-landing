@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-const {nextui} = require("@nextui-org/react");
+const { nextui } = require("@nextui-org/react");
 
 const config: Config = {
   content: [
@@ -11,23 +11,23 @@ const config: Config = {
   ],
   theme: {
     fontSize: {
-      xs: ['12px', '16px'],
-      sm: ['14px', '20px'],
-      base: ['16px', '19.5px'],
-      lg: ['18px', '21.94px'],
-      xl: ['20px', '24.38px'],
-      '2xl': ['24px', '29.26px'],
-      '3xl': ['28px', '32px'], 
-      '4xl': ['32px', '38px'],
-      '5xl': ['40px', '48px'],
-      '6xl': ['48px', '58px'],
-      '8xl': ['96px', '106px'],
+      xs: ["12px", "16px"],
+      sm: ["14px", "20px"],
+      base: ["16px", "19.5px"],
+      lg: ["18px", "21.94px"],
+      xl: ["20px", "24.38px"],
+      "2xl": ["24px", "29.26px"],
+      "3xl": ["28px", "32px"],
+      "4xl": ["32px", "38px"],
+      "5xl": ["40px", "48px"],
+      "6xl": ["48px", "58px"],
+      "8xl": ["96px", "106px"],
     },
     extend: {
       fontFamily: {
-        palanquin: ['Palanquin', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
-        jura: ['Jura', 'sans-serif'],
+        palanquin: ["Palanquin", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+        jura: ["Jura", "sans-serif"],
         monoton: ["Monoton", "sans-serif"]
       },
       colors: {
@@ -42,7 +42,7 @@ const config: Config = {
         'blue-gradient': 'radial-gradient(146.52% 386.94% at 23.92% 71.99%, #92B1DC 52.5%, #8F76ED 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49))',
       },
       boxShadow: {
-        '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
+        "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
       },
       keyframes: {
         scroll: {

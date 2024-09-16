@@ -10,7 +10,6 @@ import {
 	Values,
 	Vision,
 } from "@/sections";
-import Image from "next/image";
 
 export default function Home() {
 	return (
