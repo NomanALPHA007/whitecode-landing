@@ -28,17 +28,13 @@ const config: Config = {
         palanquin: ["Palanquin", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
         jura: ["Jura", "sans-serif"],
-        monoton: ["Monoton", "sans-serif"],
       },
       colors: {
         primary: "#3F9EB7",
         accent: "#ECEEFF",
-        // New colors
-        "light-mint-green": "#b2fab4", // Discover
-        "pastel-turquoise": "#a7ffeb", // Develop
-        "light-peach": "#ffccbc", // Deliver
       },
       backgroundImage: {
+        default: "url(/bg-default.png)",
         "blue-gradient":
           "radial-gradient(146.52% 386.94% at 23.92% 71.99%, #92B1DC 52.5%, #8F76ED 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49))",
       },
@@ -48,11 +44,11 @@ const config: Config = {
       keyframes: {
         scroll: {
           "0%": { transform: "translateY(0)" },
-          "100%": { transform: "translateY(-50%)" },
+          "100%": { transform: "translateY(calc(-100% + 250px))" },
         },
       },
       animation: {
-        scroll: "scroll 10s linear forwards",
+        scroll: "scroll 15s linear forwards",
       },
     },
   },
