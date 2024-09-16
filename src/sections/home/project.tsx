@@ -1,9 +1,14 @@
-import React from 'react'
+"use client";
+import React from "react";
+import { ImageCarousel } from "@/components";
+import { carouselProjects } from "@/data";
 
 const Project = () => {
   return (
-    <div>Project</div>
-  )
-}
+    <main>
+      <ImageCarousel projects={carouselProjects} />
+    </main>
+  );
+};
 
-export default Project
+export default Project;
