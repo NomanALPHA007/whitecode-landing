@@ -24,7 +24,7 @@ const ItemCard = ({
 					width="100%"
 					alt={title}
 					className="object-cover object-top h-full hover:animate-scroll"
-					src={`/${img}`}
+					src={`${img}`}
 				/>
 			</CardBody>
 			<CardFooter className="justify-between items-start flex-col gap-2">
