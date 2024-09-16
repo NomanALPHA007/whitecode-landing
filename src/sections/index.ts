@@ -9,8 +9,8 @@ import Map from "./shared/map";
 import Hero from "./home/hero";
 import Mission from "./home/mission";
 import Project from "./home/project";
+import Solution from "./home/solution";
 import Services from "./home/services";
-import Locations from "./home/locations";
 import Discover from "./home/discover";
 import Vision from "./home/vision";
 import Values from "./home/values";
@@ -46,8 +46,8 @@ export {
   Hero,
   Mission,
   Project,
+  Solution,
   Services,
-  Locations,
   Discover,
   Vision,
   Values,

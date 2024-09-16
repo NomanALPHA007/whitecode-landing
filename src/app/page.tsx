@@ -2,11 +2,11 @@ import {
 	Chat,
 	Discover,
 	Hero,
-	Locations,
 	Map,
 	Mission,
 	Project,
 	Services,
+	Solution,
 	Values,
 	Vision,
 } from "@/sections";
@@ -18,8 +18,8 @@ export default function Home() {
 			<Hero />
 			<Mission />
 			<Project />
-			<Services />
-			<Locations />
+			<Solution />
+      <Map />
 			<Discover />
 			<Vision />
 			<Values />

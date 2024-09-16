@@ -231,3 +231,51 @@ export const countries: any = {
   Finland: { name: "Finland", address: "Helsinki, Finland 00100" },
   Bangladesh: { name: "Bangladesh", address: "Dhaka, Bangladesh 1000" },
 };
+
+export const cardData = [
+  {
+    id: 1,
+    title: "Project White Code",
+    description:
+      "Delivering excellence through innovation in AI and software development.",
+    image:
+      "https://images.unsplash.com/photo-1501891037204-8754d498396b?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    rating: 5.0,
+  },
+  {
+    id: 2,
+    title: "Cutting-edge AI Solutions",
+    description:
+      "We specialize in delivering custom-tailored AI projects leveraging the latest advancements.",
+    image:
+      "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    rating: 4.9,
+  },
+  {
+    id: 3,
+    title: "Advanced Image Processing",
+    description:
+      "Our team excels in solving complex problems with cutting-edge image processing technologies.",
+    image:
+      "https://plus.unsplash.com/premium_photo-1725907643696-b30e86f66b28?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    rating: 4.8,
+  },
+  {
+    id: 4,
+    title: "AI-driven Innovation",
+    description:
+      "We are dedicated to driving innovation and helping businesses thrive with AI-driven solutions.",
+    image:
+      "https://images.unsplash.com/photo-1642132652859-3ef5a1048fd1?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    rating: 4.7,
+  },
+  {
+    id: 5,
+    title: "Custom Software Development",
+    description:
+      "We provide custom software solutions to address unique business needs across various industries.",
+    image:
+      "https://plus.unsplash.com/premium_photo-1720287601920-ee8c503af775?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    rating: 4.9,
+  },
+];
