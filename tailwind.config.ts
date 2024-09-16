@@ -28,10 +28,14 @@ const config: Config = {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
         jura: ['Jura', 'sans-serif'],
+        monoton: ["Monoton", "sans-serif"]
       },
       colors: {
         'primary': '#3F9EB7',
         'accent': '#ECEEFF',
+        "light-mint-green": "#b2fab4",
+        "pastel-turquoise": "#a7ffeb",
+        "light-peach": "#ffccbc",
       },
       backgroundImage: {
         'default': 'url(/bg-default.png)',
