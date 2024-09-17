@@ -31,7 +31,7 @@ const ImageCarousel = ({ projects }: { projects: any }) => {
 								{/* Set a larger height for the image */}
 								<div className="relative h-[2000px] w-full">
 									<Image
-										src={`/${item.img}`}
+										src={`${item.img}`}
 										alt={item.name}
 										fill
 										className="object-cover object-top transition-all duration-300 ease-in-out"

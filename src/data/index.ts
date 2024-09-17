@@ -75,11 +75,11 @@ export const footerSocials = [
 export const carouselProjects = [
 	{
 		name: "KONE SiteFlow",
-		img: "images/projects/siteflow-p-2000.png",
+		img: "/images/projects/siteflow-p-2000.png",
 	},
 	{
-		name: "AFUbot",
-		img: "project2.png",
+		name: "The Guestbook",
+		img: "/images/projects/theguestbook-p-1080.png",
 	},
 ];
 
@@ -95,65 +95,130 @@ export const projects = [
 		link: "https://theguestbook.com/",
 	},
 	{
-		name: "Project 1",
-		img: "project1.png",
+		name: "Fruitful.sg",
+		img: "/images/projects/fruitful-p-1080.png",
+		link: "https://fruitful.sg/",
+	},
+	{
+		name: "Arkken",
+		img: "/images/projects/arkken-fi.png",
+		link: "https://arkken.fi/",
+	},
+	{
+		name: "Workhero",
+		img: "/images/projects/workhero-p-1080.png",
 		link: "#",
 	},
 	{
-		name: "Project 2",
-		img: "project2.png",
-		link: "#",
+		name: "Harmonya",
+		img: "/images/projects/harmonya.png",
+		link: "https://www.harmonya.com/",
 	},
 	{
-		name: "Project 1",
-		img: "project1.png",
-		link: "#",
+		name: "Yaser.uk",
+		img: "/images/projects/portfolio-yaser.png",
+		link: "https://www.yaser.uk/",
 	},
 	{
-		name: "Project 2",
-		img: "project2.png",
-		link: "#",
+		name: "Raindrop",
+		img: "/images/projects/portfolio-raindrop.png",
+		link: "https://www.myraindrop.co.uk/",
 	},
 	{
-		name: "Project 1",
-		img: "project1.png",
-		link: "#",
+		name: "Seven Stars Games",
+		img: "/images/projects/sevenstars-games.png",
+		link: "https://www.sevenstars.games/",
 	},
 	{
-		name: "Project 2",
-		img: "project2.png",
-		link: "#",
+		name: "Yobota",
+		img: "/images/projects/portfolio-yobota.png",
+		link: "https://www.yobota.com/",
+	},
+	{
+		name: "Krusti Foodkits",
+		img: "/images/projects/portfolio-krusti.png",
+		link: "https://www.krusti.fi/",
+	},
+	{
+		name: "Fuocos",
+		img: "/images/projects/portfolio-fuocos.png",
+		link: "https://fuocos.com/",
+	},
+	{
+		name: "Alpha Pro Partners",
+		img: "/images/projects/portfolio-alphapro.png",
+		link: "https://alphapartners.co/",
+	},
+	{
+		name: "Safetum",
+		img: "/images/projects/safetum.png",
+		link: "https://safetum-draft.webflow.io/",
+	},
+	{
+		name: "Aidify.uk",
+		img: "/images/projects/aidify-p-800.png",
+		link: "https://aidify.uk/",
+	},
+	{
+		name: "Storylake",
+		img: "/images/projects/storylake-p-1080.png",
+		link: "https://www.storylake.com/",
+	},
+	{
+		name: "Flexmoney",
+		img: "/images/projects/flexmoney-p-1080.png",
+		link: "https://www.flexmoney.uk/",
+	},
+	{
+		name: "Wow Workspaces",
+		img: "/images/projects/portfolio-wow.png",
+		link: "https://www.wowworkspaces.co.uk/",
+	},
+	{
+		name: "Nosso",
+		img: "/images/projects/portfolio-nosso.png",
+		link: "https://www.withnosso.com/",
+	},
+	{
+		name: "JD Capital",
+		img: "/images/projects/portfolio-jd.png",
+		link: "portfolio-jd.png",
+	},
+	{
+		name: "Tap Global",
+		img: "/images/projects/portfolio-tap.png",
+		link: "https://www.tap.global/",
 	},
 ];
 
 export const services = [
   {
     name: "Web Application",
-    img: "project1.png",
+    img: "/images/projects/siteflow-p-2000.png",
   },
   {
     name: "Mobile Application",
-    img: "project1.png",
+    img: "/images/projects/siteflow-p-2000.png",
   },
   {
     name: "Desktop Application",
-    img: "project1.png",
+    img: "/images/projects/siteflow-p-2000.png",
   },
   {
     name: "EAS",
-    img: "project1.png",
+    img: "/images/projects/siteflow-p-2000.png",
   },
   {
     name: "Custom AI & Image Processing Solution",
-    img: "project1.png",
+    img: "/images/projects/siteflow-p-2000.png",
   },
   {
     name: "Dedicated Software Team",
-    img: "project1.png",
+    img: "/images/projects/siteflow-p-2000.png",
   },
   {
     name: "IoT Application & Embedded Systems",
-    img: "project1.png",
+    img: "/images/projects/siteflow-p-2000.png",
   },
 ];
 
@@ -176,55 +241,55 @@ export const values = [
 ];
 
 export const carouselNews = [
-  {
-    name: "News 1",
-    img: "project1.png",
-  },
-  {
-    name: "AFUbot",
-    img: "project2.png",
-  },
+	{
+		name: "KONE SiteFlow",
+		img: "/images/projects/siteflow-p-2000.png",
+	},
+	{
+		name: "The Guestbook",
+		img: "/images/projects/theguestbook-p-1080.png",
+	},
 ];
 
 export const allNews = [
   {
     name: "News 1",
-    img: "project1.png",
+    img: "/images/projects/siteflow-p-2000.png",
     link: "#",
   },
   {
     name: "News 2",
-    img: "project2.png",
+    img: "/images/projects/siteflow-p-2000.png",
     link: "#",
   },
   {
     name: "News 3",
-    img: "project1.png",
+    img: "/images/projects/siteflow-p-2000.png",
     link: "#",
   },
   {
     name: "News 4",
-    img: "project2.png",
+    img: "/images/projects/siteflow-p-2000.png",
     link: "#",
   },
   {
     name: "News 5",
-    img: "project1.png",
+    img: "/images/projects/siteflow-p-2000.png",
     link: "#",
   },
   {
     name: "News 6",
-    img: "project2.png",
+    img: "/images/projects/siteflow-p-2000.png",
     link: "#",
   },
   {
     name: "News 7",
-    img: "project1.png",
+    img: "/images/projects/siteflow-p-2000.png",
     link: "#",
   },
   {
     name: "News 8",
-    img: "project2.png",
+    img: "/images/projects/siteflow-p-2000.png",
     link: "#",
   },
 ];
