@@ -12,7 +12,7 @@ const ContactChat = () => {
         </div>
 
         <div>
-          <p className="text-lg text-center">Have a project? Let's Chat!</p>
+          <p className="text-lg text-center">Have a project? Let&apos;s Chat!</p>
         </div>
 
         <div className="flex justify-center">
