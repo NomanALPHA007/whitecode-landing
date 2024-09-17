@@ -1,5 +1,5 @@
-import AddressCard from "@/components/address-card/address-card";
-import React from "react";
+import { AddressCard } from "@/components";
+
 
 const Addresses = () => {
   // Define an array of addresses or any other relevant data you want to display
