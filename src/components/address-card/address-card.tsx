@@ -1,33 +1,41 @@
 import React from "react";
-import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
+import { Card, CardHeader, CardBody } from "@nextui-org/card";
 
-const AddressCard = () => {
-  return (
-    <Card className="max-w-[400px] bg-gray-200 shadow-lg rounded-lg h-[300px] w-[300px]">
-      <CardHeader className="flex gap-3">
-        <div className="flex flex-col">
-          <p className="text-xl font-bold font-montserrat text-black">
-            WhiteCode
-          </p>
-          <p className="text-lg font-semibold font-montserrat text-black">
-            (GLOBAL HQ)
-          </p>
-        </div>
-      </CardHeader>
+const AddressCard = ({
+	name,
+	address,
+	hq,
+}: {
+	name: string;
+	address: string;
+	hq?: string;
+}) => {
+	return (
+		<Card
+			className="
+      w-full
+      sm:max-w-[300px] sm:h-auto sm:p-[40px 20px] sm:gap-6 
+      md:max-w-[312px] md:h-[284px] md:p-[68px 24px] md:gap-8
+    "
+		>
+			<CardHeader className="flex flex-col items-start">
+				<h3 className="text-xl md:text-2xl font-semibold font-montserrat text-gray-800">
+					{name}
+				</h3>
+				{hq && (
+					<h4 className="text-md md:text-lg font-medium font-montserrat text-gray-500">
+						{hq}
+					</h4>
+				)}
+			</CardHeader>
 
-      <CardBody className="p-6">
-        <p className="text-lg font-medium font-montserrat text-black mt-2">
-          WhiteCode
-        </p>
-        <p className="text-sm font-montserrat text-black mt-4">
-          909 Third Avenue
-        </p>
-        <p className="text-sm font-montserrat text-black">New York, New York</p>
-        <p className="text-sm font-montserrat text-black">10022</p>
-        <p className="text-sm font-montserrat text-black">United States</p>
-      </CardBody>
-    </Card>
-  );
+			<CardBody className="mt-4">
+				<p className="text-sm md:text-base font-medium font-montserrat text-gray-800">
+					{address}
+				</p>
+			</CardBody>
+		</Card>
+	);
 };
 
 export default AddressCard;

@@ -1,29 +1,28 @@
 import { AddressCard } from "@/components";
-
+import { countries } from "@/data";
 
 const Addresses = () => {
-  // Define an array of addresses or any other relevant data you want to display
-  const addressData = [
-    {
-      id: 1,
-      name: "WhiteCode HQ",
-      location: "New York, USA",
-      address: "909 Third Avenue, 10022",
-    },
-    {
-      id: 2,
-      name: "WhiteCode HQ",
-      location: "San Francisco, USA",
-      address: "123 Market Street, 94103",
-    },
-    {
-      id: 3,
-      name: "WhiteCode Europe",
-      location: "London, UK",
-      address: "10 Downing Street, SW1A 2AA",
-    },
-    // Add more addresses as needed
-  ];
+  // const addressData = [
+  //   {
+  //     id: 1,
+  //     name: "WhiteCode HQ",
+  //     location: "New York, USA",
+  //     address: "909 Third Avenue, 10022",
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "WhiteCode HQ",
+  //     location: "San Francisco, USA",
+  //     address: "123 Market Street, 94103",
+  //   },
+  //   {
+  //     id: 3,
+  //     name: "WhiteCode Europe",
+  //     location: "London, UK",
+  //     address: "10 Downing Street, SW1A 2AA",
+  //   },
+  //   // Add more addresses as needed
+  // ];
 
   return (
     <div>
@@ -35,9 +34,10 @@ const Addresses = () => {
         </div>
         <div className="flex justify-center mt-[250px] pb-[250px] flex-wrap">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {addressData.map((address, index) => (
-              <AddressCard key={index} />
-            ))}
+            {Object.keys(countries).map((key) => {
+              const { name, address, hq } = countries[key];
+              return <AddressCard key={key} name={name} address={address} hq={hq} />;
+            })}
           </div>
         </div>
       </div>
