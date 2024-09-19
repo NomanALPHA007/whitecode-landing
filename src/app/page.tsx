@@ -18,6 +18,7 @@ export default function Home() {
 			<Mission />
 			<Project />
 			<Solution />
+			<Services />
       <Map />
 			<Discover />
 			<Vision />

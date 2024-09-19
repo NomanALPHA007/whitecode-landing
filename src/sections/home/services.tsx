@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-const ServiceSection = () => {
+const Services = () => {
   const services = [
     "Custom AI & Image Processing Solution",
     "Machine Learning Model Development",
@@ -78,4 +78,4 @@ const ServiceSection = () => {
   );
 };
 
-export default ServiceSection;
+export default Services;
