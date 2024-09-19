@@ -14,10 +14,10 @@ export const navLinks = [
     name: "About Us",
     link: "/about",
   },
-  {
-    name: "News",
-    link: "/news",
-  },
+  // {
+  //   name: "News",
+  //   link: "/news",
+  // },
   {
     name: "Contact Us",
     link: "/contact",
@@ -41,10 +41,10 @@ export const footerLinks = {
     },
   ],
   contact: [
-    {
-      name: "News",
-      link: "/news",
-    },
+    // {
+    //   name: "News",
+    //   link: "/news",
+    // },
     {
       name: "Contact Us",
       link: "/contact",
