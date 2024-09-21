@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 
 const Services = () => {
   const services = [
-    "Custom AI & Image Processing Solution",
-    "Machine Learning Model Development",
+    "Custom AI & Image Solution",
+    "Machine Learning Model",
     "Data Analytics and Visualization",
     "Natural Language Processing",
     "Computer Vision Applications",
