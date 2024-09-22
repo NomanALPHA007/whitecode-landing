@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const AboutMission = () => {
 	return (
-		<div className="px-8 md:px-24 lg:px-28 xl:px-36 py-16 lg:py-48 flex flex-col items-center justify-center gap-14 md:gap-24">
+		<div className="bg-bgprimary px-8 md:px-24 lg:px-28 xl:px-36 py-16 lg:py-48 flex flex-col items-center justify-center gap-14 md:gap-24">
 			<motion.div
 				initial={{ opacity: 0, x: 20 }}
 				whileInView={{ opacity: 1, x: 0 }}

@@ -18,7 +18,7 @@ const AllWorks = () => {
   const additionalProjects = projects.slice(VIEW_COUNT);
 
 	return (
-		<div className="w-full px-2 md:px-12 lg:px-48 padding-y lg:py-36 flex flex-col items-center justify-center gap-20">
+		<div className="bg-bgprimary w-full px-2 md:px-12 lg:px-48 padding-y lg:py-36 flex flex-col items-center justify-center gap-20">
 			<motion.div
 				initial={{ opacity: 0, x: 20 }}
 				whileInView={{ opacity: 1, x: 0 }}

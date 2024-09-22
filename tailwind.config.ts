@@ -33,6 +33,7 @@ const config: Config = {
       colors: {
         'primary': '#3F9EB7',
         'accent': '#ECEEFF',
+        'bgprimary': "#E6F0FA",
         "light-mint-green": "#b2fab4",
         "pastel-turquoise": "#a7ffeb",
         "light-peach": "#ffccbc",

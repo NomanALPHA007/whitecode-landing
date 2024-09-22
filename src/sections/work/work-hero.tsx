@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const WorkHero = () => {
 	return (
-		<div className="h-[45vh] padding-y px-8 md:px-24 lg:px-28 xl:px-36 flex items-center justify-center mb-2">
+		<div className="bg-bgprimary h-[55vh] lg:h-[70vh] padding-y px-8 md:px-24 lg:px-28 xl:px-36 flex items-center justify-center mb-2">
 			<motion.div
 				initial={{ opacity: 0, y: 20 }}
 				whileInView={{ opacity: 1, y: 0 }}

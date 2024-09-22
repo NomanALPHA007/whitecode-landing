@@ -8,11 +8,11 @@ import Image from "next/image";
 const ContactForm = () => {
   return (
     <div
-      className="h-[900px] w-bg-cover w-full bg-center bg-cover font-montserrat px-7"
+      className="w-bg-cover w-full bg-center bg-cover font-montserrat padding-x py-32 md:py-48 flex flex-col gap-20"
       style={{ backgroundImage: "url('/Form.png')" }}
     >
       <div>
-        <p className="text-[1.5rem] sm:text-[2rem] md:text-[2.5rem] lg:text-[3rem] text-center  sm:mb-[25px] md:mb-[30px] ml-[15px] sm:ml-[20px] md:ml-[25px] lg:ml-[30px] my-[60px] sm:my-[80px] md:my-[100px] lg:my-[120px] pt-[20px] sm:pt-[30px] md:pt-[40px]">
+        <p className="text-[1.5rem] sm:text-[2rem] md:text-[2.5rem] lg:text-[3rem] text-center ">
           Let&apos;s have a chat!
         </p>
       </div>

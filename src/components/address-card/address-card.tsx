@@ -13,6 +13,7 @@ const AddressCard = ({
 	return (
 		<Card
 			className="
+			bg-bgprimary
       w-full
       sm:max-w-[300px] sm:h-auto sm:p-[40px 20px] sm:gap-6 
       md:max-w-[312px] md:h-[284px] md:p-[68px 24px] md:gap-8

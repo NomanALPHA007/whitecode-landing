@@ -5,7 +5,7 @@ import { services } from "@/data";
 
 const AllServices = () => {
 	return (
-		<div className="px-2 md:px-6 lg:px-12 py-16 md:py-32 w-full flex flex-col items-center justify-center gap-20">
+		<div className="bg-bgprimary px-2 md:px-6 lg:px-12 py-16 md:py-32 w-full flex flex-col items-center justify-center gap-20">
       <motion.div
       initial={{ opacity: 0, x: 20 }} 
       whileInView={{ opacity: 1, x: 0 }} 

@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactChat = () => {
   return (
-    <div className="font-jura w-full overflow-x-hidden pb-[200px]">
+    <div className="bg-bgprimary font-jura w-full overflow-x-hidden pb-[200px]">
       <div className="grid grid-rows-3 items-center justify-center gap-8 pt-[220px]">
         <div className="text-center">
           <p className="text-5xl md:text-7xl lg:text-[4.5rem] pb-2">
