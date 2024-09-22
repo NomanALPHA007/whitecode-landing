@@ -4,6 +4,7 @@ import { Autoplay, Navigation, Pagination, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { Image } from "@nextui-org/react";
 
 const AboutValuesNew = () => {
 	return (
@@ -21,7 +22,7 @@ const AboutValuesNew = () => {
 			>
 				<SwiperSlide>
 					<div className="relative h-full bg-[url('/about-values-bg-1.jpg')] bg-cover bg-center filter brightness-125">
-						<div className="absolute inset-0 bg-white opacity-70"></div>
+						<div className="absolute inset-0 bg-white opacity-75"></div>
 						<div className="relative h-full px-8 md:px-32 lg:px-42 xl:px-52 py-24 lg:py-48 flex flex-col justify-center items-center gap-10">
 							<div className="font-jura text-3xl md:text-4xl lg:text-5xl font-[600]">
 								Empowering Women in Technology
@@ -33,16 +34,18 @@ const AboutValuesNew = () => {
 								excel in technology roles.
 							</div>
 							<div className="flex flex-col justify-center items-center gap-4">
-								<div className="relative z-10 rounded-full bg-pink-400 w-28 h-28 "></div>
+								<div className="relative z-10 rounded-full bg-pink-400 w-28 h-28 ">
+									<Image src="/about-women-emp-samantha.jpg" alt="Samantha Hussain" className="w-full h-auto rounded-full" />
+								</div>
 								<h2 className="font-jura text-xl lg:text-2xl font-semibold">
 									Samantha Hussain
 								</h2>
-								<p className="font-jura text-center text-md lg:text-lg">
+								<p className="font-jura text-center text-md lg:text-lg font-[500]">
 									UI/UX Development & Media
 									<br />
 									Team Lead
 								</p>
-								<blockquote className="w-[90%] sm:w-[80%] p-4 italic font-montserrat text-justify text-sm md:text-md lg:text-lg">
+								<blockquote className="w-[90%] sm:w-[80%] p-4 italic font-montserrat text-center text-sm md:text-md lg:text-lg">
 									“As a member of Project WhiteCode, I am proud to affirm our
 									unwavering commitment to women empowerment in the tech
 									industry.”
