@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
+import Link from "next/link";
 
 const Vision = () => {
   return (
@@ -17,10 +18,12 @@ const Vision = () => {
           budget is tailored according to the size of your business.
         </p>
         <div className="flex justify-center md:justify-start lg:justify-start">
-          <button className="bg-blue-300 text-white font-jura px-4 py-2 sm:px-6 sm:py-3 rounded-md hover:bg-blue-400 transition duration-300 flex items-center">
-            About Us
-            <FaArrowRight className="ml-2" />
-          </button>
+          <Link href="/about">
+            <button className="bg-blue-300 text-white font-jura px-4 py-2 sm:px-6 sm:py-3 rounded-md hover:bg-blue-400 transition duration-300 flex items-center">
+              About Us
+              <FaArrowRight className="ml-2" />
+            </button>
+          </Link>
         </div>
       </div>
 
