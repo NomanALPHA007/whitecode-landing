@@ -19,18 +19,16 @@ const AddressCard = ({
     "
 		>
 			<CardHeader className="flex flex-col items-start">
-				<h3 className="text-xl md:text-2xl font-semibold font-montserrat text-gray-800">
+				<h3 className="text-xl md:text-2xl lg:text-3xl font-medium font-montserrat text-gray-800">
 					{name}
 				</h3>
-				{hq && (
-					<h4 className="text-md md:text-lg font-medium font-montserrat text-gray-500">
-						{hq}
-					</h4>
-				)}
+				<h4 className="text-md md:text-lg lg:text-xl font-medium font-montserrat text-gray-500 h-6">
+					{hq && hq}
+				</h4>
 			</CardHeader>
 
 			<CardBody className="mt-4">
-				<p className="text-sm md:text-base font-medium font-montserrat text-gray-800">
+				<p className="text-sm md:text-base lg:text-lg font-normal font-montserrat text-gray-800">
 					{address}
 				</p>
 			</CardBody>
