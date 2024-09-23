@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Solution = () => {
   return (
-    <div className="bg-gradient-to-b from-black via-gray-400 to-white animate-gradient-slow h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[90vh] xl:h-[100vh] py-8 px-8 md:px-16 lg:px-24 xl:px-32 flex items-center justify-center mb-2">
+    <div className="bg-gradient-to-b from-black via-gray-400 to-bgprimary  animate-gradient-slow h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[90vh] xl:h-[100vh] py-8 px-8 md:px-16 lg:px-24 xl:px-32 flex items-center justify-center mb-2">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         transition={{ duration: 0.6 }}

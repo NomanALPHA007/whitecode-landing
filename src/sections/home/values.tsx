@@ -5,7 +5,7 @@ import { values } from "@/data";
 
 const Values = () => {
   return (
-    <div className="px-4 md:px-6 lg:px-12 py-12 md:py-24 lg:py-32 w-full flex flex-col items-center justify-center gap-10 md:gap-20 overflow-hidden">
+    <div className="bg-bgprimary px-4 md:px-6 lg:px-12 py-12 md:py-24 lg:py-32 w-full flex flex-col items-center justify-center gap-10 md:gap-20 overflow-hidden">
       {/* Main Title */}
       <motion.div
         initial={{ opacity: 0, x: 20 }}

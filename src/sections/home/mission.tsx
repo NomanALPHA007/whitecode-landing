@@ -41,7 +41,7 @@ const Mission = () => {
   ];
 
   return (
-    <div className="mission-section w-full min-h-screen mx-auto px-4 py-24 md:py-32 overflow-hidden flex flex-col justify-center">
+    <div className="mission-section w-full min-h-screen mx-auto px-4 py-24 md:py-32 overflow-hidden flex flex-col justify-center bg-bgprimary">
       {/* Mission Title */}
       <motion.h2
         initial={{ opacity: 0, y: -50 }}

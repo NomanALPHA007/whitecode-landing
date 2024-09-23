@@ -26,9 +26,9 @@ const Services = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row p-4 sm:p-8 justify-center items-center text-center lg:text-left space-y-6 lg:space-y-0 lg:space-x-8 w-full max-w-screen-lg mx-auto">
+    <div className="bg-bgprimary min-h-screen flex flex-col lg:flex-row justify-center items-center text-center lg:text-left space-y-6 lg:space-y-0 lg:space-x-8 p-4 w-full">
       {/* Left Side */}
-      <div className="w-full lg:w-[40%] xl:w-[30%] mb-6 lg:mb-0">
+      <div className="w-full lg:w-[40%] xl:w-[30%]">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-jura font-bold text-blue-300 mb-4">
           What We Do
         </h2>
@@ -68,7 +68,7 @@ const Services = () => {
               }}
               transition={{ duration: 0.3 }}
             >
-              <div className="bg-white border border-gray-300 rounded-md p-3 lg:p-4 flex justify-center items-center hover:shadow-md transition duration-300 hover:bg-blue-50">
+              <div className="bg-white border border-gray-300 rounded-md p-2 lg:p-3 flex justify-center items-center hover:shadow-md transition duration-300 hover:bg-blue-50">
                 <span className="text-gray-800 text-center text-xs sm:text-sm md:text-base">
                   {service}
                 </span>

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Vision = () => {
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row p-4 sm:p-8 justify-center items-center text-center lg:text-left md:text-left space-y-6 lg:space-y-0 md:space-y-0 lg:space-x-8 md:space-x-8 w-full max-w-screen-lg mx-auto">
+    <div className="bg-bgprimary min-h-screen flex flex-col lg:flex-row justify-center items-center text-center lg:text-left space-y-6 lg:space-y-0 lg:space-x-8 p-4 w-full px-[20%]">
       {/* Left Section */}
       <div className="w-full md:w-1/2 lg:w-1/2 flex flex-col justify-center items-center md:items-start lg:items-start text-center md:text-left lg:text-left mb-6 lg:mb-0 md:mb-0">
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-jura font-bold text-blue-300 mb-4">
