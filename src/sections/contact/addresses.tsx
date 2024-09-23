@@ -2,28 +2,6 @@ import { AddressCard } from "@/components";
 import { countries } from "@/data";
 
 const Addresses = () => {
-  // const addressData = [
-  //   {
-  //     id: 1,
-  //     name: "WhiteCode HQ",
-  //     location: "New York, USA",
-  //     address: "909 Third Avenue, 10022",
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "WhiteCode HQ",
-  //     location: "San Francisco, USA",
-  //     address: "123 Market Street, 94103",
-  //   },
-  //   {
-  //     id: 3,
-  //     name: "WhiteCode Europe",
-  //     location: "London, UK",
-  //     address: "10 Downing Street, SW1A 2AA",
-  //   },
-  //   // Add more addresses as needed
-  // ];
-
   return (
     <div>
       <div className="bg-custom w-full">
