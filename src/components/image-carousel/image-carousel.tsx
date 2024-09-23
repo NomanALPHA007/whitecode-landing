@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const ImageCarousel = ({ projects }: { projects: any }) => {
 	return (
-		<div className="w-full h-[700px]">
+		<div className="w-full h-[600px] md:h-[800px]">
 			<Swiper
 				centeredSlides={true}
 				autoplay={{
@@ -26,10 +26,8 @@ const ImageCarousel = ({ projects }: { projects: any }) => {
 				{projects.map((item: any, index: number) => (
 					<SwiperSlide key={index}>
 						<div className="h-full w-full overflow-hidden relative group">
-							{/* Parent div to constrain height */}
 							<div className="h-full overflow-hidden relative group-hover:overflow-y-auto scrollbar-hide">
-								{/* Set a larger height for the image */}
-								<div className="relative h-[2000px] w-full">
+								<div className="relative h-full w-full"> {/* Remove scrollable height, can be added later on requirement. */}
 									<Image
 										src={`${item.img}`}
 										alt={item.name}
