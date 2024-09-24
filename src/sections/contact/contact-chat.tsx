@@ -1,39 +1,59 @@
-import React from "react";
+"use client";
+import { ICONS } from "@/utils/icons";
+import { Button } from "@nextui-org/react";
+import { easeInOut, motion } from "framer-motion";
 
 const ContactChat = () => {
-  return (
-    <div className="bg-bgprimary font-jura w-full overflow-x-hidden pb-[200px]">
-      <div className="grid grid-rows-3 items-center justify-center gap-8 pt-[220px]">
-        <div className="text-center">
-          <p className="text-5xl md:text-7xl lg:text-[4.5rem] pb-2">
-            The Future
-          </p>
-          <p className="text-5xl md:text-7xl lg:text-[4.5rem] pt-2">Awaits</p>
-        </div>
+	return (
+		<div className="bg-bgprimary h-screen padding font-jura w-full flex flex-col items-center justify-center gap-20">
+			<motion.div
+				initial={{ opacity: 0, x: 20 }}
+				whileInView={{ opacity: 1, x: 0 }}
+				transition={{ duration: 0.3, ease: easeInOut }}
+				className="text-center"
+			>
+				<p className="text-5xl md:text-6xl lg:text-8xl text-center">
+					The Future
+					<br />
+					Awaits
+				</p>
+			</motion.div>
 
-        <div>
-          <p className="text-lg text-center">Have a project? Let&apos;s Chat!</p>
-        </div>
+			<motion.div
+				initial={{ opacity: 0, x: -20 }}
+				whileInView={{ opacity: 1, x: 0 }}
+				transition={{ duration: 0.3, ease: easeInOut }}
+			>
+				<p className="text-lg lg:text-3xl text-center">
+					Have a project? Let&apos;s Chat!
+				</p>
+			</motion.div>
 
-        <div className="flex justify-center">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-  );
+			<motion.div
+				initial={{ opacity: 0, y: 20 }}
+				whileInView={{ opacity: 1, y: 0 }}
+				transition={{ duration: 0.3, ease: easeInOut, delay: 0.3 }}
+			>
+				<motion.button
+					initial={{ width: "50px" }}
+					whileHover={{ width: "150px" }}
+					transition={{ type: "spring", stiffness: 300 }}
+					className="bg-green-500 text-white flex items-center justify-start gap-3 rounded-full overflow-hidden p-4 active:bg-green-700 transition duration-150"
+				>
+					<span className="text-base lg:text-lg">{ICONS.chat}</span>
+
+					<motion.span
+						initial={{ opacity: 0 }}
+						whileHover={{ opacity: 1 }}
+						transition={{ ease: "easeInOut" }}
+						className="text-base lg:text-lg whitespace-nowrap"
+					>
+						WhatsApp
+					</motion.span>
+				</motion.button>
+			</motion.div>
+		</div>
+	);
 };
 
 export default ContactChat;
