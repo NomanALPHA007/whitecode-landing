@@ -301,7 +301,7 @@ export const countries: any = {
     hq: "Global HQ",
   },
   Finland: { name: "Finland", address: "Helsinki, Finland 00100", hq: "Global HQ" },
-  Bangladesh: { name: "Bangladesh", address: "Dhaka, Bangladesh 1000" },
+  Bangladesh: { name: "Bangladesh", address: "Oasis, House 47, Road 3A, Dhanmondi, Dhaka - 1205" },
 };
 
 export const cardData = [
