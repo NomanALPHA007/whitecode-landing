@@ -3,20 +3,21 @@
 import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Services = () => {
   const services = [
-    "Custom AI & Image Processing Solution",
-    "Machine Learning Model Development",
+    "Custom AI & Image Solution",
+    "Machine Learning Model",
     "Data Analytics and Visualization",
     "Natural Language Processing",
     "Computer Vision Applications",
     "Robotic Process Automation",
   ];
 
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
-  const handleMouseEnter = (index: any) => {
+  const handleMouseEnter = (index: number) => {
     setHoveredIndex(index);
   };
 
@@ -25,13 +26,13 @@ const Services = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row  p-4 sm:p-8 justify-center items-center">
+    <div className="bg-bgprimary min-h-screen flex flex-col lg:flex-row justify-center items-center text-center lg:text-left space-y-6 lg:space-y-0 lg:space-x-8 p-4 w-full">
       {/* Left Side */}
-      <div className="lg:w-[40%] xl:w-[30%] lg:pr-8 mb-8 lg:mb-0 text-center lg:text-left">
+      <div className="w-full lg:w-[40%] xl:w-[30%]">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-jura font-bold text-blue-300 mb-4">
           What We Do
         </h2>
-        <p className="text-gray-700 font-montserrat mb-6 text-sm sm:text-base">
+        <p className="text-gray-700 font-montserrat mb-6 text-sm sm:text-base md:text-lg">
           We specialize in cutting-edge AI solutions, delivering custom-tailored
           projects that leverage the latest advancements in artificial
           intelligence and image processing technologies. Our team of experts is
@@ -39,15 +40,17 @@ const Services = () => {
           various industries.
         </p>
         <div className="flex justify-center lg:justify-start">
-          <button className="bg-blue-300 text-white font-jura px-4 py-2 sm:px-6 sm:py-3 rounded-md hover:bg-blue-400 transition duration-300 flex items-center justify-center">
-            More Services
-            <FaArrowRight className="ml-2" />
-          </button>
+          <Link href="/services">
+            <button className="bg-blue-300 text-white font-jura px-4 py-2 sm:px-6 sm:py-3 rounded-md hover:bg-blue-400 transition duration-300 flex items-center">
+              Our Services
+              <FaArrowRight className="ml-2" />
+            </button>
+          </Link>
         </div>
       </div>
 
       {/* Right Side */}
-      <div className="lg:w-[40%] xl:w-[30%] flex justify-center">
+      <div className="w-full lg:w-[40%] xl:w-[30%] flex justify-center">
         <ul className="space-y-4 w-full">
           {services.map((service, index) => (
             <motion.li
@@ -58,7 +61,7 @@ const Services = () => {
               animate={{
                 scale:
                   hoveredIndex === index
-                    ? 1.2
+                    ? 1.1
                     : hoveredIndex !== null
                     ? 0.95
                     : 1,

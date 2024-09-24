@@ -52,9 +52,6 @@ const HomeValuesCarousel: React.FC = () => {
                 alt={card.title}
                 className="w-full h-full object-cover"
               />
-              <div className="absolute top-2 right-2 bg-white rounded-full p-1">
-                <FaHeart className="text-red-500 cursor-pointer hover:scale-110 transition-transform" />
-              </div>
             </div>
             <div className="p-2">
               <h2 className="text-sm md:text-base lg:text-lg font-jura font-bold mb-1 text-black">
