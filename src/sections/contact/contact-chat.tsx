@@ -4,6 +4,11 @@ import { Button } from "@nextui-org/react";
 import { easeInOut, motion } from "framer-motion";
 
 const ContactChat = () => {
+  const handleWhatsAppClick = () => {
+    const phoneNumber = '8801622257180';
+    window.open(`https://wa.me/${phoneNumber}`, '_blank');
+  };
+
 	return (
 		<div className="bg-bgprimary h-screen padding font-jura w-full flex flex-col items-center justify-center gap-20">
 			<motion.div
@@ -38,6 +43,7 @@ const ContactChat = () => {
 					initial={{ width: "50px" }}
 					whileHover={{ width: "150px" }}
 					transition={{ type: "spring", stiffness: 300 }}
+          onClick={handleWhatsAppClick}
 					className="bg-green-500 text-white flex items-center justify-start gap-3 rounded-full overflow-hidden p-4 active:bg-green-700 transition duration-150"
 				>
 					<span className="text-base lg:text-lg">{ICONS.chat}</span>
