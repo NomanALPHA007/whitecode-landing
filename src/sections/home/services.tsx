@@ -42,7 +42,7 @@ const Services = () => {
         <div className="flex justify-center lg:justify-start">
           <Link href="/services">
             <button className="bg-blue-300 text-white font-jura px-4 py-2 sm:px-6 sm:py-3 rounded-md hover:bg-blue-400 transition duration-300 flex items-center">
-              About Us
+              Our Services
               <FaArrowRight className="ml-2" />
             </button>
           </Link>

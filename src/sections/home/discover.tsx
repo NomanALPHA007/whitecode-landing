@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Discover = () => {
   return (
-    <div className="bg-custom h-[55vh] py-8 px-8 md:px-24 lg:px-28 xl:px-36 flex items-center justify-center mb-2">
+    <div className="bg-custom h-[55vh] py-8 px-8 md:px-24 lg:px-28 xl:px-36 flex items-center justify-center ">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         transition={{ duration: 0.6 }}
