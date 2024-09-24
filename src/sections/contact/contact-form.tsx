@@ -70,7 +70,8 @@ const ContactForm = () => {
             />
           </div>
           <div className="flex justify-center sm:justify-start mt-5 w-full">
-            <Button className="bg-black hover:bg-blue-400 text-white font-bold py-1 px-6 rounded-lg w-96 sm:w-80">
+            <Button className="bg-black hover:bg-blue-400 text-white font-bold py-1 px-6 rounded-lg w-96 sm:w-80"> 
+              {/* Need to make responsive */}
               Submit
             </Button>
           </div>
