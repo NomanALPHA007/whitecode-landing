@@ -5,6 +5,11 @@ import { ICONS } from "@/utils/icons";
 import { Button } from "@nextui-org/react";
 
 const Chat = () => {
+	const handleWhatsAppClick = () => {
+    const phoneNumber = '8801622257180';
+    window.open(`https://wa.me/${phoneNumber}`, '_blank');
+  };
+	
 	return (
 		<div
 			className="w-full padding md:px-44 flex flex-col justify-center items-start gap-8 h-[45vh] md:h-[calc(100vh-100px)] chat-background"
@@ -34,6 +39,7 @@ const Chat = () => {
 					variant="ghost"
 					className="border-1 border-black hover:!bg-transparent hover:scale-105"
 					endContent={ICONS.arrow_right}
+					onPress={handleWhatsAppClick}
 				>
 					<div className=" py-4">
 						<span className="text-base md:text-xl lg:text-2xl">Lets have a Chat</span>
