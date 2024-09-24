@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
       <ContactChat />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <Addresses />
     </div>
   )
