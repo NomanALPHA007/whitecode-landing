@@ -22,19 +22,27 @@ const Hero = () => {
 
   return (
     <div
-      className="w-full flex flex-col justify-center items-center gap-8 h-[calc(100vh-100px)] bg-black"
-      style={{
-        backgroundImage: `url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80")`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
+      className="relative w-full flex flex-col justify-center items-center gap-8 h-[calc(100vh-5rem)]"
+      // style={{
+      //   backgroundImage: `url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80")`,
+      //   backgroundSize: "cover",
+      //   backgroundPosition: "center",
+      //   backgroundRepeat: "no-repeat",
+      // }}
     >
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        src="/videos/hero-background.mp4"
+        autoPlay
+        loop
+        muted
+      />
+      <div className="absolute top-0 left-0 w-full h-full bg-black/50 backdrop-blur-md z-10"></div>
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="w-[90%] xl:w-[70%] text-center flex justify-center items-center"
+        className="relative z-20 w-[90%] xl:w-[70%] text-center flex justify-center items-center"
       >
         <motion.div
           className="text-white font-jura font-extrabold tracking-widest"
