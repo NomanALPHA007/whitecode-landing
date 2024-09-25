@@ -1,14 +1,14 @@
-import { Addresses, ContactChat, ContactForm } from '@/sections'
-import React from 'react'
+import { Addresses, ContactChat, ContactForm } from "@/sections";
+import React from "react";
 
 const Contact = () => {
-  return (
-    <div>
-      <ContactChat />
-      {/* <ContactForm /> */}
-      <Addresses />
-    </div>
-  )
-}
+	return (
+		<div>
+			<ContactChat />
+			{/* <ContactForm /> */}
+			<Addresses />
+		</div>
+	);
+};
 
-export default Contact
+export default Contact;
